@@ -1,0 +1,493 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.group2 h4 {
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 20px;
+    background: aqua;
+    cursor: pointer;
+
+
+
+}
+
+.navbar i {
+    font-size: 20px;
+}
+
+.iname {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.group1,
+.group2,
+.group3 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.group3 button {
+    padding: 10px 20px;
+    border: 1px solid black;
+    color: aliceblue;
+    background: black;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.group3 i:hover {
+    font-size: 25px;
+    color: gray;
+
+}
+
+.group2 h4:hover {
+    color: gray;
+    text-decoration: underline;
+
+}
+
+/* hero css start */
+.hero {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    background: gray;
+}
+
+.heroleft {
+    height: 100%;
+    width: 50%;
+    padding: 90px 70px;
+}
+
+.heroright {
+    height: 100%;
+    width: 50%;
+}
+
+.heroright img {
+    align-items: center;
+    height: 80%;
+}
+
+.heroleft h4 {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 1.5;
+}
+
+.heroleft h4 b {
+    color: aqua;
+
+}
+
+.dev {
+    color: whitesmoke;
+    -webkit-text-stroke: 2px orange;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.heroleft p {
+    width: 80%;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.social {
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.sicon {
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sicon:hover {
+    background: black;
+    color: white;
+}
+
+.sicon i {
+    height: 40px;
+    justify-content: center;
+    font-size: 30px;
+
+}
+
+.sicon:hover i {
+    height: 20px;
+}
+
+/* Skills */
+.Heading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.Heading h2 {
+    font-size: 60px;
+    font-weight: 400;
+    font-family: sans-serif;
+
+}
+
+.Heading h2 span {
+    font-weight: 700;
+    color: orange;
+}
+
+.card {
+    border: 3px solid black;
+    border-radius: 8px;
+    height: 220px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    transition: all 0.5s ease;
+
+}
+
+.card i {
+    font-size: 50px;
+}
+
+.card h3 {
+    font-size: 40px;
+}
+
+.cardwrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    padding: 40px;
+
+}
+
+.card:hover {
+    background: black;
+    color: aliceblue;
+}
+
+/* skills section end */
+
+
+/* my experience section start */
+
+.myexperience {
+    background: gray;
+    color: aliceblue;
+}
+
+.exp-card-wrapper {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.exp-card {
+    /* height: 150px; */
+    width: 80%;
+    /* background-color: blue; */
+    border: 2px solid wheat;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.exp-card div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.exp-card div h1 img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.exp-card p {
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.exp-card:hover {
+    background-color: #bbb7b7cf;
+    color: black;
+}
+
+/* my experience section end */
+
+/* about section start */
+
+#about {
+    width: 100%;
+    height: 90vh;
+}
+
+.aboutleft {
+    width: 50%;
+    height: 90vh;
+    float: left;
+}
+
+.aboutright {
+    width: 50%;
+    height: 90vh;
+    float: left;
+    padding-left: 150px;
+
+}
+
+.aboutleft img {
+    border: 5px solid black;
+    border-radius: 30px;
+    align-items: center;
+    height: 90%;
+    width: 80%;
+    margin-left: 100px;
+}
+
+
+.about-text h2 {
+    font-size: 40px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.exp-area {
+    margin-bottom: 50px;
+}
+
+.exp-area p {
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 42px;
+}
+
+.exp-area p span {
+    color: var(--other-color);
+    font-size: var(--p-font);
+    font-weight: 400;
+    margin-left: 8px;
+}
+
+/* about section end */
+/* My Project Section start */
+.my-project {
+    background: gray;
+    color: aliceblue;
+    padding-top: 20px;
+}
+
+.project-wrapper {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.project {
+    height: 60vh;
+    width: 80%;
+    /* background: cornsilk; */
+    /* border: 2px solid whitesmoke; */
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    gap: 60px;
+    justify-content: center;
+
+}
+
+.project-img {
+    height: 80%;
+    width: 40%;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+.project-text {
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+
+
+}
+
+.project-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.project-text h1 {
+    font-size: 40px;
+
+}
+
+.project-text i {
+    height: 60px;
+    width: 60px;
+}
+
+.project-text i:hover {
+    cursor: pointer;
+}
+
+/* My Project Section end */
+
+
+/* Contact us start */
+
+.contactus {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    /* background: blue; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-wrapper {
+    height: 80%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.contact-form {
+    height: 100%;
+    width: 90%;
+
+}
+
+.contact-text {
+    height: 100%;
+    width: 100%;
+    /* background: aqua; */
+}
+
+.contact-form form input,
+.contact-form form textarea {
+    height: 60%;
+    width: 80%;
+    /* background: orange; */
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+textarea {
+    height: 140px !important;
+    width: 80% !important;
+}
+
+.contact-form form input::placeholder {
+    font-size: 20px;
+}
+
+.social button {
+    height: 60px;
+    padding: 10px;
+    background: #000;
+    font-size: 25px;
+    color: aliceblue;
+    border-radius: 10px;
+    outline: none;
+
+
+}
+
+.contact-img {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.contact-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+/* Contact us end */
